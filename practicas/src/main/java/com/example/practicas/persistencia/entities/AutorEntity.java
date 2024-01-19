@@ -1,4 +1,4 @@
-package com.example.practicas.persistencias.entities;
+package com.example.practicas.persistencia.entities;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -56,10 +56,9 @@ public class AutorEntity {
 
 	@Override
 	public String toString() {
-		return "AutorEntity [id=" + id + ", nombre=" + nombre + ", nacionalidad=" + nacionalidad + "]";
+		return "AutorEntity [id=" + id + ", nombre=" + nombre + ", nacionalidad=" + nacionalidad + ", libros=" + libros
+				+ "]";
 	}
-
- 
     
 }
 

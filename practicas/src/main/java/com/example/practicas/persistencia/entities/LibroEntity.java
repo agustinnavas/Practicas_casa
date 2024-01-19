@@ -1,4 +1,4 @@
-package com.example.practicas.persistencias.entities;
+package com.example.practicas.persistencia.entities;
 
 import java.math.BigDecimal;
 
@@ -67,8 +67,9 @@ public class LibroEntity {
 
 	@Override
 	public String toString() {
-		return "LibroEntity [id=" + id + ", titulo=" + titulo + ", isbn=" + isbn + ", precio=" + precio + ", autor="
-				+ autor + "]";
+		return "LibroEntity [id=" + id + ", titulo=" + titulo + ", isbn=" + isbn + ", precio=" + precio + "]";
 	}
+
+    
 }
 
